@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.header-links {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    gap: 16px;
+    margin-bottom: 0px;
+}
+
+.header-logo {
+    margin-top: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 300px;
+    width: 400px;
+    margin: 100px 0px;
+}
+
+.header-sign-up .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.header-sign-up .secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-sign-up button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 16px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    list-style-type: none;
+}
+
+.header-img {
+    height: 300px;
+    width: auto;
+    margin: 100px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
