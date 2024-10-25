@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     flex: 1;
+    gap: 16px;
 }
 
 .header-links {
@@ -85,6 +86,7 @@ body {
     justify-content: center;
     gap: 64px;
     margin: 64px 0;
+    flex-wrap: wrap;
 }
 
 .info-img {
